@@ -1,8 +1,13 @@
 {
   "permissions": {
     "allow": [
-      "Skill(update-config)"
+      "Skill(update-config)",
+      "Bash(git -C \"D:\\\\workspace\\\\my-profile-site\" ls-files --error-unmatch .claude/settings.local.json)",
+      "Bash(echo \"exit:$?\")",
+      "Bash(git -C \"D:\\\\workspace\\\\my-profile-site\" check-ignore -v .claude/settings.local.json)",
+      "Bash(git -C \"D:\\\\workspace\\\\my-profile-site\" ls-files --others --ignored --exclude-standard .claude/settings.local.json)"
     ]
   },
-  "outputStyle": "Explanatory"
+  "outputStyle": "Explanatory",
+  "plansDirectory": "plans"
 }
