@@ -1,3 +1,11 @@
 {
-  "plansDirectory": "plans"
+  "permissions": {
+    "allow": [
+      "Bash"
+    ],
+    "deny" :[],
+    "ask" :[],
+    "defaultMode": "plan"
+  },
+  "outputStyle": "Explanatory"
 }
