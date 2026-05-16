@@ -1,8 +1,7 @@
 {
   "permissions": {
     "allow": [
-      "Skill(update-config)",
-      "PowerShell(git *)"
+      "Skill(update-config)"
     ]
   },
   "outputStyle": "Explanatory"
